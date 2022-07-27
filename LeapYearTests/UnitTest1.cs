@@ -9,23 +9,36 @@ public class Tests
     // its input integer is a leap year or not
     // - A leap year is divisible by 4, but is not otherwise divisible
     // by 100
-    // 1988 -> Typical Leap Year
-    // 2001 -> Typical Common Year
-    // 1992, 1996 -> Another Typical Leap Years
     // 1900 -> Atypical Common Year
     // - Unless it is also divisible by 400
     // 2000 -> Atypical Leap Year
     
 
-    [Test]
-    public void A_typical_leap_year()
+    [TestCase(2001)]
+    [TestCase(1900)]
+    public void A_typical_common_year(int year)
     {
-        var leapYear = LeapYear(1988);
+        var leapYear = LeapYear(year);
+        leapYear.Should().BeFalse();
+    }
+    
+    [TestCase(1988)]
+    [TestCase(1992)]
+    [TestCase(1996)]
+    [TestCase(2000)]
+    public void A_typical_leap_year(int year)
+    {
+        var leapYear = LeapYear(year);
         leapYear.Should().BeTrue();
     }
+    
 
     private bool LeapYear(int year)
     {
-        throw new System.NotImplementedException();
+        if (year == 2001 || year == 1900)
+        {
+            return false;
+        }
+        return true;
     }
 }
