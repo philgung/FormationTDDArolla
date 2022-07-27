@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeapYears", "LeapYears", "{B3B8FD17-78AE-4519-A544-D78D58CB9BB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FizzBuzz", "FizzBuzz", "{0F8E94F4-D32C-4F7B-9B4C-F99258419EE1}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FooBarQix", "FooBarQix", "{7990570A-C2D7-4B90-94D1-E46453135A27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FooBarQix Avancée", "FooBarQix Avancée", "{A95B2E51-F749-4009-93BF-82E07A961017}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Fraction", "Fraction", "{85DADA03-546C-48F5-A007-F3C984257D29}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tennis", "Tennis", "{52C66B8F-B97B-43F2-B1F9-20529D3575BC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Diamond", "Diamond", "{5C5F6BF1-AF3A-4914-87D4-4A3A9FEDA51E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Train Reservation", "Train Reservation", "{8AB7144C-26C2-4031-8D4A-BD399B66919A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Gilded Rose", "Gilded Rose", "{08425441-E5AF-4E92-98F8-E139D0D20F4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bowling", "Bowling", "{FAD735DD-08FD-449A-9480-CB9B2D91F3A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeapYearTests", "LeapYearTests\LeapYearTests.csproj", "{BBDAE1CE-0070-4FFA-8CF2-FE3FA0C040EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BBDAE1CE-0070-4FFA-8CF2-FE3FA0C040EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBDAE1CE-0070-4FFA-8CF2-FE3FA0C040EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBDAE1CE-0070-4FFA-8CF2-FE3FA0C040EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBDAE1CE-0070-4FFA-8CF2-FE3FA0C040EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BBDAE1CE-0070-4FFA-8CF2-FE3FA0C040EE} = {B3B8FD17-78AE-4519-A544-D78D58CB9BB7}
+	EndGlobalSection
+EndGlobal
